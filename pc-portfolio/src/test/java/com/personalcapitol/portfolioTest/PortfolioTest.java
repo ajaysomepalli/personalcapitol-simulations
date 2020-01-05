@@ -1,11 +1,11 @@
-package com.personalcapitol.portfolio.pc_portfolio.PortfolioTest;
+package com.personalcapitol.portfolioTest;
 
 
 import java.text.DecimalFormat;
 
 import org.junit.Test;
 
-import com.personalcapitol.portfolio.pc_portfolio.Portfolio;
+import com.personalcapitol.portfolio.Portfolio;
 import com.personalcapitol.result.Result;
 import junit.framework.TestCase;
 

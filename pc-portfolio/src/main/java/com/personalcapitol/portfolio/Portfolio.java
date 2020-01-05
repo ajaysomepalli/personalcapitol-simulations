@@ -1,4 +1,4 @@
-package com.personalcapitol.portfolio.pc_portfolio;
+package com.personalcapitol.portfolio;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
