@@ -3,7 +3,7 @@ It generates 10,000 simulations for the investment's future value with given ris
 
 Information Provided:
   1. Initial investment of $100,000 and returns, risk for an investment is provided.
-  2. Calculate Median, 10% Best case and 10% Worst case for the term of 20 years with an inflation of 3.5% for both aggresive and very conservative approach.
+  2. Calculate Median, 10% Best case[90th percentile of the simulations] and 10% Worst case[10 percentile of the simulations] for the term of 20 years with an inflation of 3.5% for both aggresive and very conservative approach.
 
 Steps Involved:
   1. Calculate 10,000 simulations using Guassian Distribution with the given Return(Mean) and Risk(Standard Deviation) for an               year. Simulation = RandomGuassianNumber * Standard Deviation + Mean [As the random gaussian number is calculated for 0 meand and 1 Standard Deviation].
