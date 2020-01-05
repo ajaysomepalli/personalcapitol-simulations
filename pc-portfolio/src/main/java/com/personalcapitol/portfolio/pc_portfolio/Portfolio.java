@@ -29,8 +29,8 @@ public class Portfolio {
 		final DecimalFormat df = new DecimalFormat("#.##");
 		Double[] initialPrinciples = new Double[numOfSimulations];
 		Arrays.fill(initialPrinciples, initialPrinciple);
-		List<List<Double>> allReturns = new ArrayList<>();
-		List<List<Double>> allRates = new ArrayList<>();
+		List<List<Double>> allReturns = new ArrayList();
+		List<List<Double>> allRates = new ArrayList();
 		List<Double> previousPrinciples = Arrays.asList(initialPrinciples);
 
 		for (int i = 1; i <= numOfYears; i++) {
